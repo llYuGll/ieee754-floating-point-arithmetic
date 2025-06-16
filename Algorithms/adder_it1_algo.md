@@ -47,10 +47,15 @@ STEP1-expo1=1; expo2=-1   x=(2); C=operand2; D=operand1
 STEP2-new fraction of C= {0110000000000000000000}
 STEP3-  y={binary addition of fraction of D and new fraction of C}
 	 ={0110000000000000000000+10100000000000000000000}={1_00000000000000000000000)
+
+  
 carry generated= so new final number=10.00000000000000000000000 * 2^1(expo of D)
+
+
 STEP4- Normalization -->1.000000000000000000000000 * 2^2(expo of D+1) shift right
+
 STEP5 - representation = {0_(129)_000000000000000000000000}
 			={0_10000001_000000000000000000000000}
 
 Cleary this is 4.0 which is expected answer.
-So this basic algorithm should be fine for first try! now ill try making Verilog module for the same.
+So this basic algorithm should be fine for first try! 
