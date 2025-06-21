@@ -3,7 +3,7 @@
 The first iteration worked well, but in this iteration ill try to remove the challenges that the simulation faced in 1st algorithm. I have taken a lot of gap time to prepare this algorithm, so ill try to make every change required to make it completely error free and robust. I have gone through many sources which discuss how to round off in IEEE754 convention.
 so that in next iteration of adder(hopefully the last) i can concentrate on complex issues like pipelining. 
 
-**Observations-**
+**Observations from it_1**
 1.Covers general cases but edge cases will need special treatments.(NaN, infinity, Denormal, zero)
 2.the logic implements addition but not subtraction.
 3.No overflow/underflow logic implemented, what if exponent can not be represented using 8 bits? etc 
