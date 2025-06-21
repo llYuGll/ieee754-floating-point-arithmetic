@@ -36,7 +36,11 @@ If any of the bits shifted out are 1, the sticky bit is set to 1.If all removed 
 
 I think all the short comings of iteration 1 will be solved with this newer code.  
 
-![Diagram1](../images/diagram.png)
+![image](https://github.com/user-attachments/assets/a3840d99-45d3-4478-b64d-fb37654efdef)
+![image](https://github.com/user-attachments/assets/9403d0b7-b6f3-47a1-af68-951d9f6c2087)
+
+
+
  
 
 ![Diagram2](../images/diagram.png)
